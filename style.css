@@ -1,0 +1,43 @@
+body{
+    background: rgba(204, 192, 183, 0.986);
+}
+
+.container{
+    width: 900px;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+ul.dias{
+    width: 100%;
+    background: rgb(39, 38, 38);
+    list-style: none;
+    display: flex;
+}
+
+ul.dias li {
+    width: 25%;
+}
+
+ul.dias li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.active{
+    background: rgb(184, 189, 124);
+}
+
+main{
+    width: 100%;
+    background: rgb(184, 189, 124);
+
+}
+
+main article{
+    padding: 10%;
+}
